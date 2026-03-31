@@ -1,19 +1,26 @@
+import bg1 from "../assets/bg1.jpg";
 export const Projects = () => {
+
+ 
   const meusProjetos = [
     {
       title: "Portfolio Tech",
+      image: "C:\Users\WINDOWS 10\Downloads\pexels-florian-holly-2584321-6308163.jpg",
       desc: "Este site que você está vendo agora, feito com React e Tailwind.",
       tech: ["React", "Tailwind", "Vite"],
       link: "#"
     },
     {
       title: "Sistema de Delivery",
+    
       desc: "Interface moderna para pedidos online com foco em UX.",
       tech: ["React", "Context API", "CSS"],
       link: "#"
     },
     {
       title: "Dashboard de Finanças",
+     
+      
       desc: "Painel administrativo com gráficos e controle de gastos.",
       tech: ["JavaScript", "Tailwind", "Chart.js"],
       link: "#"
@@ -33,14 +40,16 @@ export const Projects = () => {
               key={index} 
               className="group bg-white/5 border border-white/10 p-6 rounded-2xl hover:border-accent-purple/50 transition-all duration-300 transform hover:-translate-y-2"
             >
-              <div className="h-48 bg-gradient-to-br from-accent-blue/20 to-accent-purple/20 rounded-xl mb-6 flex items-center justify-center">
-                <span className="text-white/20 font-bold">Preview do Projeto</span>
+              <div className="flex items-center justify-center">
+                <span className="text-white/20 font-bold">
+                 <img className="h-49  rounded-xl mb-6 flex items-center justify-center  " src={bg1} alt="" />
+                </span>
               </div>
               
               <h3 className="text-xl font-bold text-white mb-2 group-hover:text-accent-blue transition-colors">
                 {proj.title}
               </h3>
-              
+
               <p className="text-gray-400 text-sm mb-4">
                 {proj.desc}
               </p>
