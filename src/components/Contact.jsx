@@ -9,13 +9,13 @@ export const Contact = () => {
         
         <div className="flex flex-col md:flex-row justify-center gap-6">
           <a 
-            href="mailto:seu-email@gmail.com" 
+            href="evenilsonguerreiro@gmail.com" 
             className="bg-accent-blue text-black font-bold py-4 px-8 rounded-xl hover:scale-105 transition-transform"
           >
             Enviar E-mail
           </a>
           <a 
-            href="https://wa.me/seunumerodetelefone" 
+            href="8598854-0568" 
             target="_blank" 
             rel="noopener noreferrer"
             className="border border-white/20 text-white font-bold py-4 px-8 rounded-xl hover:bg-white/5 transition-all"

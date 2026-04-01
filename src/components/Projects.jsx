@@ -1,26 +1,28 @@
 import bg1 from "../assets/bg1.jpg";
+import bg2 from "../assets/bg2.jpg";
+import bg3 from "../assets/bg3.jpg";
+
 export const Projects = () => {
 
  
   const meusProjetos = [
     {
-      title: "Portfolio Tech",
-      image: "C:\Users\WINDOWS 10\Downloads\pexels-florian-holly-2584321-6308163.jpg",
-      desc: "Este site que você está vendo agora, feito com React e Tailwind.",
-      tech: ["React", "Tailwind", "Vite"],
+      title: "Digital Story",
+      image: bg1,
+      desc: "Esta é uma Home Page de E-commerce moderna desenvolvida com React e Styled Components, garantindo um design exclusivo e componentes altamente reutilizáveis. O foco do projeto foi criar uma interface de compras fluida, com navegação intuitiva e total responsividade para diferentes dispositivos.",
+      tech: ["React", "Javascript", "Node.js"],
       link: "#"
     },
     {
-      title: "Sistema de Delivery",
-    
-      desc: "Interface moderna para pedidos online com foco em UX.",
+      title: "Sistema de Cadastro de Usuários",
+      image: bg2,
+      desc: "Sistema completo de Cadastro de Usuários com integração entre Front-end (React) e Back-end (Node.js/PostgreSQL). O projeto utiliza o banco de dados Neon para persistência de dados em nuvem, focando em uma arquitetura moderna, segura e com gerenciamento de perfis em tempo real através de uma API REST.",
       tech: ["React", "Context API", "CSS"],
       link: "#"
     },
     {
       title: "Dashboard de Finanças",
-     
-      
+      image: bg3,
       desc: "Painel administrativo com gráficos e controle de gastos.",
       tech: ["JavaScript", "Tailwind", "Chart.js"],
       link: "#"
@@ -42,7 +44,11 @@ export const Projects = () => {
             >
               <div className="flex items-center justify-center">
                 <span className="text-white/20 font-bold">
-                 <img className="h-49  rounded-xl mb-6 flex items-center justify-center  " src={bg1} alt="" />
+                 <div className="h-49  rounded-xl mb-6 flex items-center justify-center">
+                  <img 
+                  src={proj.image}
+                   />
+                 </div> 
                 </span>
               </div>
               
@@ -66,7 +72,7 @@ export const Projects = () => {
                 href={proj.link} 
                 className="text-white text-sm font-bold border-b-2 border-accent-blue pb-1 hover:text-accent-blue transition-all"
               >
-                Ver Detalhes →
+                <a href="">Link do repositorio</a> →
               </a>
             </div>
           ))}

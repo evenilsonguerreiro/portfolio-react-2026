@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full h-20 border-b border-white/10 bg-dark-bg/80 backdrop-blur-md z-50 flex items-center justify-between px-8">
-      <div className="text-2xl font-bold bg-gradient-to-r from-accent-blue to-accent-purple bg-clip-text text-transparent">
-        Dev: Evenilson
+      <div className="text-1xl font-bold bg-gradient-to-r from-accent-blue to-accent-purple bg-clip-text text-transparent">
+       Evenilson
       </div>
 
       <ul className="flex gap-8 text-sm font-medium">

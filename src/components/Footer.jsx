@@ -3,7 +3,7 @@ export const Footer = () => {
     <footer className="py-12 border-t border-white/5 bg-dark-bg">
       <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="text-xl font-bold text-white">
-          EV<span className="text-accent-blue">.</span>
+          Dev:Evenilson<span className="text-accent-blue">.</span>
         </div>
 
         <p className="text-gray-500 text-sm">
