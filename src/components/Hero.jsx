@@ -1,16 +1,16 @@
-import bg2 from "../assets/bg2.jpg";
+import bg1 from "../assets/bg1.jpg";
 export const Hero = () => {
   return (
     <section id="home" className="h-screen flex flex-col items-center justify-center text-center px-4 bg-dark-bg">
-      <img src={bg2} alt="background" className="w-full h-full absolute inset-0 object-cover opacity-10" />
+      <img src={bg1} alt="background" className="w-full h-full absolute inset-0 object-cover opacity-10" />
       <span className="px-4 py-1 rounded-full border border-accent-blue/30 text-accent-blue text-sm mb-6 bg-accent-blue/5 animate-pulse">
         Disponível para novos projetos
       </span>
 
       <h1 className="text-5xl md:text-7xl font-black mb-6 max-w-4xl leading-tight">
-        Transformando ideias em <br />
+        Desenvolvedor <br />
         <span className="bg-gradient-to-r from-accent-blue to-accent-purple bg-clip-text text-transparent">
-          Experiências Digitais.
+          Web FullStack.
         </span>
       </h1>
 
@@ -22,9 +22,11 @@ export const Hero = () => {
         <button className="bg-accent-blue hover:bg-accent-blue/80 text-black px-8 py-4 rounded-xl font-bold transition-all transform hover:scale-105">
           <a href="#projects">Ver Projetos</a>
         </button>
-        <button className="border border-white/10 hover:bg-white/5 text-white px-8 py-4 rounded-xl font-bold transition-all">
-          Entre em contato
-        </button>
+       
+          <a className=" relative z-10 border border-white/10 hover:bg-white/5 text-white px-8 py-4 rounded-xl font-bold transition-all" href="#contact">
+            Entre em contato
+          </a>
+  
       </div>
     </section>
   );
