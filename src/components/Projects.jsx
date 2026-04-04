@@ -17,37 +17,37 @@ export const Projects = () => {
       image: bg1,
       desc: "Sistema completo de Cadastro de Usuários com integração entre Front-end (React) e Back-end (Node.js/PostgreSQL). O projeto utiliza o banco de dados Neon para persistência de dados em nuvem, focando em uma arquitetura moderna, segura e com gerenciamento de perfis em tempo real através de uma API REST.",
       tech: ["React", "Context API", "CSS"],
-      link: "#"
+      link: "https://github.com/evenilsonguerreiro/sistema-autenticacao-backend"
     },
     {
-      title: "Dashboard de Finanças",
+      title: "Sistema de UBS",
       image: bg1,
-      desc: "Painel administrativo com gráficos e controle de gastos.",
-      tech: ["JavaScript", "Tailwind", "Chart.js"],
-      link: "#"
+      desc: "Sistema de gestão de UBS com integração entre Front-end (React) e Back-end (Node.js/PostgreSQL). O projeto utiliza o banco de dados Neon para persistência de dados em nuvem, focando em uma arquitetura moderna, segura e com gerenciamento de perfis em tempo real através de uma API REST.",
+      tech: ["JavaScript", "Html5", "Css3"],
+      link: "https://ubs-maracanau.vercel.app/"
     }, 
 
     {
-      title: "Dashboard de Produtos",
+      title: "App para Hamburgueria",
       image: bg1,
-      desc: "Painel administrativo com gráficos e controle de gastos.",
-      tech: ["JavaScript", "Tailwind", "Chart.js"],
-      link: "#"
+      desc: "Aplicação para gerenciamento de hamburguerias, usando as tecnologias javascript, tailwind, e node.js.",
+      tech: ["JavaScript", "Tailwind", ],
+      link: "https://cardapio-burger-navy.vercel.app/"
     },
     {
       title:"Sistema de pet shop",
       image: bg1,
-      desc: "",
-      tech:["React", "Context API", "CSS"],
+      desc: "sistema de pet shop,feito para agendamento de pets dando mais agilidade e com mais facilidade de uso.",
+      tech:["Html5", "Javascrip", "CSS"],
       link: "https://hiper-pet-shop.vercel.app/"
     }, 
 
     {
-      title: "Sistema de Cadastro de Usuários",
+      title: "Banco de dados de produtos",
       image: bg1,
-      desc: "",
-      tech: ["React", "Context API", "CSS"],
-      link: "#",
+      desc: "banco de dados de produtos, feito para armazenar informações de produtos e seus detalhes, em nuven no banco de dados neon.", 
+      tech: ["Javascript", "express", "node.js", "sql", "neon"],
+      link: "https://github.com/evenilsonguerreiro/banco-de-dados-produtos/blob/main/server.js",
     }
   ];
 

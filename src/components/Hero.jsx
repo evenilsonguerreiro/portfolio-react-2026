@@ -15,7 +15,7 @@ export const Hero = () => {
       </h1>
 
       <p className="text-gray-400 text-lg md:text-xl max-w-2xl mb-10">
-        Olá, eu sou o <span className="text-white font-semibold">Evenilson</span>. Desenvolvedor focado em criar interfaces modernas, rápidas e totalmente responsivas.
+        Olá, eu sou o <span className="text-white font-semibold">Evenilson</span>. Estudante de Tecnologia na EBAC e Desenvolvedor Full Stack certificado pelo Geração Tech 3.0. Focado em transformar aprendizado em soluções digitais de alto impacto, com interfaces otimizadas e foco total na experiência do usuário.
       </p>
 
       <div className="flex gap-4">
